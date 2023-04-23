@@ -3,6 +3,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import data from "./data.json"
 import Products from "./Components/Products/Products";
+import Filter from "./Components/Filter/Filter";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <main>
         <div className="wrapper">
           <Products products = {products} />
-          <div className="filter-wrapper">filter</div>
+          <Filter/>
         </div>
       </main>
 
