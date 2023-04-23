@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 
 function App() {
@@ -9,10 +10,8 @@ function App() {
       <main>
         content
       </main>
-      <footer>
-        footer
-      </footer>
 
+      <Footer/>
     </div>
   );
 }
