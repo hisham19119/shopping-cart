@@ -1,8 +1,18 @@
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-App
+    <div className="layout">
+
+
+      <Header/>
+      <main>
+        content
+      </main>
+      <footer>
+        footer
+      </footer>
+
     </div>
   );
 }
