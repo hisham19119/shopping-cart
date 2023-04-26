@@ -10,7 +10,7 @@ import "../../css/Filter/Filter.css"
         <div className="num-of-products"> Number of Products  </div>
         <div className="filter-by-size">
             <span>Filter</span>
-            <select className="filter-select" >
+            <select className="filter-select" value={props.size} onChange={props.handleFilterBySize}>
                 <option value="ALL">ALL</option>
                 <option value="XS">XS</option>
                 <option value="S">S</option>
@@ -22,7 +22,7 @@ import "../../css/Filter/Filter.css"
         </div>
         <div className="filter-by-size">
             <span>Order</span>
-            <select className="filter-select" >
+            <select className="filter-select" onChange = {props.handleFilterByOrder} value = {props.sort} >
                 <option value="latest">Latest</option>
                 <option value="lowest">lowest</option>
                 <option value="highest">Highest</option>

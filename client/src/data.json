@@ -14,7 +14,7 @@
         "imageUrl" : "/images/product2.jpeg",
         "desc": "This is product 2",
         "price":79,
-        "sizes" : ["Xl","L"]
+        "sizes" : ["XL","L"]
         
     },
     {
